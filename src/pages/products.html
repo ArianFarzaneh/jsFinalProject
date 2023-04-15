@@ -1,0 +1,107 @@
+<div class="products-container p-3 h-[100vh] w-12/12" onload="loadAllProducts()">
+    <div class="good-morning flex">
+        <div class="w-2/12"><img class="rounded-full w-[50px] h-[50px]" src="/src/assets/images/ProfilePic.jpg" alt=""></div>
+        <div class="w-8/12">
+            <div class="">Good Morning 👋</div>
+            <div class="font-bold">Saeed Abdilar</div>
+        </div>
+        <div class="flex mt-[4%]">
+            <div class="text-2xl"><ion-icon name="notifications-outline"></ion-icon></div>
+            <div class="text-2xl ml-[2%]"><ion-icon name="heart-outline"></ion-icon></div>
+        </div>
+    </div>
+    <div class="search-bar ml-[5%] mt-[8%] mb-[6%]">
+        <input type="text" class="pl-5 w-[95%] h-[40px] bg-gray-100 border-black border-[1px] rounded-sm" placeholder="Search">
+    </div>
+    <div class="products-brands w-12/12">
+
+        <div class="flex justify-center gap-[5%] mb-[8%]">
+            <div class=" w-[75px] h-[75px]">
+                <div class="bg-gray-200 rounded-full w-[60px] h-[60px] pl-[5%] pt-[3%]"><img class="w-[50px]" src="/src/assets/svg/nike.svg" alt=""></div>
+                <div class="w-[60px] text-center">Nike</div>
+            </div>
+            <div class=" w-[75px] h-[75px]">
+                <div class="bg-gray-200 rounded-full w-[60px] h-[60px] pl-[5%]"><img class="w-[50px]" src="/src/assets/svg/adidas.svg" alt=""></div>
+                <div class="w-[60px] text-center">Adidas</div>
+            </div>
+            <div class=" w-[75px] h-[75px]">
+                <div class="bg-gray-200 rounded-full w-[60px] h-[60px] pl-[5%] pt-[10%]"><img class="w-[45px]" src="/src/assets/svg/puma.svg" alt=""></div>
+                <div class="w-[60px] text-center">Puma</div>
+            </div>
+            <div class=" w-[75px] h-[75px]">
+                <div class="bg-gray-200 rounded-full w-[60px] h-[60px] pl-[5%] pt-[4%]"><img class="w-[50px]" src="/src/assets/svg/alacritty.svg" alt=""></div>
+                <div class="w-[60px] text-center">Asics</div>
+            </div>
+        </div>
+
+        <div class="flex justify-center gap-[5%]">
+            <div class=" w-[75px] h-[75px]">
+                <div class="bg-gray-200 rounded-full w-[60px] h-[60px] pl-[14%] pt-[14%]"><img class="w-[40px]" src="/src/assets/svg/rebook.svg" alt=""></div>
+                <div class="w-[60px] text-center">Rebook</div>
+            </div>
+            <div class=" w-[75px] h-[75px]">
+                <div class="bg-gray-200 rounded-full w-[60px] h-[60px] pl-[5%] pt-[7%]"><img class="w-[50px]" src="/src/assets/svg/newbalance.svg" alt=""></div>
+                <div class="w-[60px] text-center">NewBa..</div>
+            </div>
+            <div class=" w-[75px] h-[75px]">
+                <div class="bg-gray-200 rounded-full w-[60px] h-[60px] pl-[16%] pt-[15%]"><img class="w-[35px]" src="/src/assets/svg/coveralls.svg" alt=""></div>
+                <div class="w-[60px] text-center">Converse</div>
+            </div>
+            <div class=" w-[75px] h-[75px]">
+                <div class="bg-gray-200 rounded-full w-[60px] h-[60px] pl-[8%] pt-[8%]"><img class="w-[45px]" src="/src/assets/svg/ellipsis-horizontal.svg" alt=""></div>
+                <div class="w-[60px] text-center">More</div>
+            </div>
+        </div>
+    </div>
+    <div class="most-popular-brands w-12/12 mt-[10%]">
+        <div class="title flex w-12/12">
+            <div class="text-2xl font-bold w-10/12 align-middle">Most Popular</div>
+            <div class="text-lg text-right align-middle">See All</div>
+        </div>
+    </div>
+    <div class="all-products overflow-y-hidden flex mt-[3%]">
+        <button class="font-semibold rounded-full border-black border-[2px] mr-[2%] px-[4%] py-[2%] text-md bg-gray-700 text-white" id="sdufhgsiukfh">All</button>
+        <button class="font-semibold rounded-full border-black border-[2px] mr-[2%] px-[4%] py-[2%] text-md">Nike</button>
+        <button class="font-semibold rounded-full border-black border-[2px] mr-[2%] px-[4%] py-[2%] text-md">Adidas</button>
+        <button class="font-semibold rounded-full border-black border-[2px] mr-[2%] px-[4%] py-[2%] text-md">Puma</button>
+        <button class="font-semibold rounded-full border-black border-[2px] mr-[2%] px-[4%] py-[2%] text-md">Asics</button>
+        <button class="font-semibold rounded-full border-black border-[2px] mr-[2%] px-[4%] py-[2%] text-md">Rebook</button>
+        <button class="font-semibold rounded-full border-black border-[2px] mr-[2%] px-[4%] py-[2%] text-md">NewBa..</button>
+        <button class="font-semibold rounded-full border-black border-[2px] mr-[2%] px-[4%] py-[2%] text-md">Converse</button>
+    </div>
+    
+</div>
+
+<div id="home-page-menu" class="flex justify-around fixed w-full h-[14vh] bottom-0">
+    <a href="" onclick="route()">
+        <div class="w-max text-center">
+            <div class="flex justify-center"><img class="w-7 h-7" src="/src/assets/images/menuIcons/home.png" alt=""></div>
+            <div class="">Home</div>
+        </div>
+    </a>
+    <a href="" onclick="route()">
+        <div class="w-max text-center">
+            <div class="flex justify-center"><img class="w-7 h-7" src="/src/assets/images/menuIcons/bagOutline.png" alt=""></div>
+            <div class="">Cart</div>
+        </div>
+    </a>
+    <a href="" onclick="route()">
+        <div class="w-max text-center">
+            <div class="flex justify-center"><img class="w-7 h-7" src="/src/assets/images/menuIcons/ordersOutline.png" alt=""></div>
+            <div class="">Orders</div>
+        </div>
+    </a>
+    <a href="" onclick="route()">
+        <div class="w-max text-center">
+            <div class="flex justify-center"><img class="w-7 h-7" src="/src/assets/images/menuIcons/walletOutline.png" alt=""></div>
+            <div class="">Wallet</div>
+        </div>
+    </a>
+    <a href="" onclick="route()">
+        <div class="w-max text-center">
+            <div class="flex justify-center"><img class="w-7 h-7" src="/src/assets/images/menuIcons/ProfileOutline.png" alt=""></div>
+            <div class="">Profile</div>
+        </div>
+    </a>
+
+</div>
