@@ -1,6 +1,10 @@
-import { eyeOpen , eyeClose , inputPass1 , inputPass2 , signInBtn , eyeOpenFunc , eyeCloseFunc } from "./src/components/loginHandle/main"
 import { welcomePageContainer , welcomePage , poster , firstSlide , firstSlider , secondSlide , secondSlider , thirdSlide , thirdSlider , welcomePageDeleter , posterDeleter , firstSlideDeleter , secondSlideDeleter,thirdSlideDeleter} from "./src/components/hideWelcomePage/main"
-console.log(window. location. href)
+import { eyeOpen , eyeClose , inputPass1 , inputPass2 , signInBtn , eyeOpenFunc , eyeCloseFunc , checkLoginTruth, userInput} from "./src/components/loginHandle/main"
+import { renderProductsContainer , getAllProductsData } from "./src/components/renderAllProducts/main"
+// import { getProductsData , getUserData } from "./src/components/getData/main"
+
+
+
 if(window.location.href==="http://localhost:5173/")
 {
 //   welcomePage.addEventListener('click',()=>
@@ -47,4 +51,14 @@ else if(window.location.href==='http://localhost:5173/login')
   {
     eyeCloseFunc()
   })
+  signInBtn.addEventListener('click',(e)=>
+  {
+    e.preventDefault()
+    checkLoginTruth("http://localhost:3000/acounts",userInput.value)
+
+  })
+}
+else if(window.location.href==='http://localhost:5173/products')
+{
+    getAllProductsData()
 }

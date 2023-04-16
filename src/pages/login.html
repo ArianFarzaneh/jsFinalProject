@@ -4,7 +4,7 @@
       <img class="bg-black rounded-full w-[70px] h-[70px] ml-[40%] mt-28" src="src/assets/svg/Vector 1.svg" alt="">
       <p class="text-4xl font-bold text-center mt-24">Login to Your Acount</p>
       <form action="" class="ml-[5%] mt-[20%]">
-        <input class="w-[95%] h-[35px] rounded-md p-3 pl-14 bg-gray-100 text-2xl focus:border-black focus:border-[2px] mb-[5%]" type="email" name="" placeholder="Email">
+        <input id="user-input" class="w-[95%] h-[35px] rounded-md p-3 pl-14 bg-gray-100 text-2xl focus:border-black focus:border-[2px] mb-[5%]" type="email" name="" placeholder="Email">
         <input id="inputPass1" class="w-[95%] h-[35px] rounded-md p-3 pl-14 bg-gray-100 text-2xl focus:border-black focus:border-[2px]" type="password" placeholder="Password">
         <input id="inputPass2" class="hidden w-[95%] h-[35px] rounded-md p-3 pl-14 bg-gray-100 text-2xl focus:border-black focus:border-[2px]" type="text" name="" placeholder="Password">
         <div class="flex ml-[30%] mt-[6%]">
@@ -15,7 +15,8 @@
           <div class="absolute top-[400px] left-[40px] text-2xl"><ion-icon name="mail"></ion-icon></div>
           <div class="absolute top-[455px] left-[40px] text-2xl"><ion-icon name="lock-closed"></ion-icon></div>
         </div>
-        <input id="sign-in-btn" class="bg-black text-center text-white w-[90%] ml-[3%] p-2 rounded-full mt-48" type="submit" value="Sign In">
+        <button id="sign-in-btn" class="bg-black text-center text-white w-[90%] ml-[3%] p-2 rounded-full mt-48"><a href="/products" onclick="route()">Sign In</a></button>
+        <!-- <input id="sign-in-btn" class="bg-black text-center text-white w-[90%] ml-[3%] p-2 rounded-full mt-48" type="submit" value="Sign In"> -->
 
       </form>
     </div>

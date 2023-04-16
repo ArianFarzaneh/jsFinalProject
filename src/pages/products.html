@@ -1,4 +1,4 @@
-<div class="products-container p-3 h-[100vh] w-12/12" onload="loadAllProducts()">
+<div class="products-container p-3 w-12/12 mb-[40%]">
     <div class="good-morning flex">
         <div class="w-2/12"><img class="rounded-full w-[50px] h-[50px]" src="/src/assets/images/ProfilePic.jpg" alt=""></div>
         <div class="w-8/12">
@@ -59,7 +59,7 @@
             <div class="text-lg text-right align-middle">See All</div>
         </div>
     </div>
-    <div class="all-products overflow-y-hidden flex mt-[3%]">
+    <div class="all-products-brand overflow-y-hidden flex mt-[3%] mb-[6%]">
         <button class="font-semibold rounded-full border-black border-[2px] mr-[2%] px-[4%] py-[2%] text-md bg-gray-700 text-white" id="sdufhgsiukfh">All</button>
         <button class="font-semibold rounded-full border-black border-[2px] mr-[2%] px-[4%] py-[2%] text-md">Nike</button>
         <button class="font-semibold rounded-full border-black border-[2px] mr-[2%] px-[4%] py-[2%] text-md">Adidas</button>
@@ -69,10 +69,19 @@
         <button class="font-semibold rounded-full border-black border-[2px] mr-[2%] px-[4%] py-[2%] text-md">NewBa..</button>
         <button class="font-semibold rounded-full border-black border-[2px] mr-[2%] px-[4%] py-[2%] text-md">Converse</button>
     </div>
+    <div class="render-products grid grid-cols-2 gap-[4%] w-12/12" id="render-products-container">
+        <div class="w-[100%] h-52 ">
+            <div class="h-[70%] bg-[#f2f2f2] rounded-3xl flex flex-col justify-center">
+                <img class="w-52 h-52" src="/src/assets/images/brands/fjfjftj.png" alt="">
+            </div>
+            <div class="h-[15%] font-bold text-xl">adidas X285</div>
+            <div class="h-[15%]">$ 500</div>
+        </div>
+    </div>
     
 </div>
 
-<div id="home-page-menu" class="flex justify-around fixed w-full h-[14vh] bottom-0">
+<div id="home-page-menu" class="mt-[100px] flex justify-around fixed w-full h-[14vh] bottom-0 bg-white pt-2">
     <a href="" onclick="route()">
         <div class="w-max text-center">
             <div class="flex justify-center"><img class="w-7 h-7" src="/src/assets/images/menuIcons/home.png" alt=""></div>

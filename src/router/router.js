@@ -7,7 +7,7 @@
   
   const routes = {
     "/":"/src/pages/welcomePage.html",
-    "/404":"/src/pages/404.html",
+    404:"/src/pages/404.html",
     "/login": "/src/pages/login.html",
     "/products":"/src/pages/products.html"
   };

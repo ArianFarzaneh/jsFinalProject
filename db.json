@@ -1,0 +1,151 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "model": "adidasModel1",
+      "brand": "adidas",
+      "price":"$ 200",
+      "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
+      "sizes":["lg","xl","2xl"],
+      "images":"/src/assets/images/brands/adidas/adidas1.png"
+  },
+
+  {
+    "id": 2,
+    "model": "adidasModel2",
+    "brand": "adidas",
+    "price":"$ 200",
+    "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
+    "sizes":["lg","xl","2xl"],
+    "images":"/src/assets/images/brands/adidas/adidas2.png"
+},
+
+{
+  "id": 3,
+  "model": "adidasModel3",
+  "brand": "adidas",
+  "price":"$ 200",
+  "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
+  "sizes":["lg","xl","2xl"],
+  "images":"/src/assets/images/brands/adidas/adidas3.png"
+},
+
+{
+  "id": 4,
+  "model": "adidasModel4",
+  "brand": "adidas",
+  "price":"$ 200",
+  "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
+  "sizes":["lg","xl","2xl"],
+  "images":"/src/assets/images/brands/adidas/adidas4.png"
+},
+
+{
+  "id": 5,
+  "model": "adidasModel5",
+  "brand": "adidas",
+  "price":"$ 200",
+  "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
+  "sizes":["lg","xl","2xl"],
+  "images":"/src/assets/images/brands/adidas/adidas5.png"
+},
+
+    {
+      "id": 6,
+      "model": "json-server",
+      "brand": "typicode",
+      "price":"1000",
+      "colors":["red","green","blue","purple","orange"],
+      "sizes":["lg","xl","2xl"],
+      "images":
+      {
+          "url1":"",
+          "url2":"",
+          "url3":""
+      } 
+  },
+
+    {
+      "id": 7,
+      "model": "json-server",
+      "brand": "typicode",
+      "price":"1000",
+      "colors":["red","green","blue","purple","orange"],
+      "sizes":["lg","xl","2xl"],
+      "images":
+      {
+          "url1":"",
+          "url2":"",
+          "url3":""
+      } 
+  },
+
+    {
+      "id": 8,
+      "model": "json-server",
+      "brand": "typicode",
+      "price":"1000",
+      "colors":["red","green","blue","purple","orange"],
+      "sizes":["lg","xl","2xl"],
+      "images":
+      {
+          "url1":"",
+          "url2":"",
+          "url3":""
+      } 
+  },
+
+    {
+      "id": 9,
+      "model": "json-server",
+      "brand": "typicode",
+      "price":"1000",
+      "colors":["red","green","blue","purple","orange"],
+      "sizes":["lg","xl","2xl"],
+      "images":
+      {
+          "url1":"",
+          "url2":"",
+          "url3":""
+      } 
+  },
+
+    {
+      "id": 10,
+      "model": "json-server",
+      "brand": "typicode",
+      "price":"1000",
+      "colors":["red","green","blue","purple","orange"],
+      "sizes":["lg","xl","2xl"],
+      "images":
+      {
+          "url1":"",
+          "url2":"",
+          "url3":""
+      } 
+  }
+  ],
+
+  
+  "acounts": [
+    { 
+      "id": "arian1@gmail.com", 
+      "password": "afn2681",
+      "name":"arian farzaneh1"
+  },
+  
+  { 
+      "id": "arian2@gmail.com", 
+      "password": "afn2682",
+      "name":"arian farzaneh2"
+  },
+
+  { 
+      "id": "arian3@gmail.com", 
+      "password": "afn2683",
+      "name":"arian farzaneh3"
+  }
+  ]
+
+  
+}
