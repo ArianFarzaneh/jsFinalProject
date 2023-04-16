@@ -31,11 +31,13 @@ export async function checkLoginTruth(url,userInput)
             if(data.password===inputPass1.value || data.password===inputPass2.value)
             {
                 console.log('you entered correct!');
-                route('/products')
+                const href=document.getElementById('login-router').setAttribute("href","/products")
+                localStorage.setItem("customerName", data.name);
             }
             else
             {
                 console.log('you entered wrong!');
+                document.getElementById('login-router').setAttribute("href","/login")
             }
         }
         else

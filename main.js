@@ -1,7 +1,7 @@
 import { welcomePageContainer , welcomePage , poster , firstSlide , firstSlider , secondSlide , secondSlider , thirdSlide , thirdSlider , welcomePageDeleter , posterDeleter , firstSlideDeleter , secondSlideDeleter,thirdSlideDeleter} from "./src/components/hideWelcomePage/main"
 import { eyeOpen , eyeClose , inputPass1 , inputPass2 , signInBtn , eyeOpenFunc , eyeCloseFunc , checkLoginTruth, userInput} from "./src/components/loginHandle/main"
 import { renderProductsContainer , getAllProductsData } from "./src/components/renderAllProducts/main"
-// import { getProductsData , getUserData } from "./src/components/getData/main"
+// import { homePageMenu } from "./src/components/showMainPage/main"
 
 
 
@@ -42,6 +42,7 @@ if(window.location.href==="http://localhost:5173/")
 }
 else if(window.location.href==='http://localhost:5173/login')
 {
+  localStorage.clear();
   eyeOpen.addEventListener('click',()=>
   {
     eyeOpenFunc()
@@ -55,10 +56,16 @@ else if(window.location.href==='http://localhost:5173/login')
   {
     e.preventDefault()
     checkLoginTruth("http://localhost:3000/acounts",userInput.value)
-
+    route()
   })
 }
 else if(window.location.href==='http://localhost:5173/products')
 {
+  
+    const customerName=localStorage.getItem("customerName")
+    console.log(customerName);
+    const CustomerNameDisplay=document.getElementById('name-of-customer')
+    CustomerNameDisplay.innerHTML=customerName
+    // renderAllItems()
     getAllProductsData()
 }
