@@ -1,6 +1,7 @@
 import { welcomePageContainer , welcomePage , poster , firstSlide , firstSlider , secondSlide , secondSlider , thirdSlide , thirdSlider , welcomePageDeleter , posterDeleter , firstSlideDeleter , secondSlideDeleter,thirdSlideDeleter} from "./src/components/hideWelcomePage/main"
 import { eyeOpen , eyeClose , inputPass1 , inputPass2 , signInBtn , eyeOpenFunc , eyeCloseFunc , checkLoginTruth, userInput} from "./src/components/loginHandle/main"
-import { renderProductsContainer , getAllProductsData } from "./src/components/renderAllProducts/main"
+import { renderProductsContainer , getAllProductsData ,brandsMenuContainer , renderBrandInMainPage } from "./src/components/renderAllProducts/main"
+import { loadnikePage , loadadidasPage , loadpumaPage , loadasicsPage , loadnewbalancePage , loadconversePage} from "./src/components/renderByBrandsRoute/main"
 // import { homePageMenu } from "./src/components/showMainPage/main"
 
 
@@ -63,9 +64,43 @@ else if(window.location.href==='http://localhost:5173/products')
 {
   
     const customerName=localStorage.getItem("customerName")
-    console.log(customerName);
     const CustomerNameDisplay=document.getElementById('name-of-customer')
     CustomerNameDisplay.innerHTML=customerName
-    // renderAllItems()
     getAllProductsData()
+    brandsMenuContainer.addEventListener('click',(e)=>
+    {
+      let target=e.target
+      if(target.innerHTML==='All')
+      {
+        getAllProductsData()
+      }
+      else
+      {
+        renderBrandInMainPage(`http://localhost:3000/products?brand=${target.innerHTML}`,target)
+      }
+    })
+}
+else if(window.location.href==='http://localhost:5173/nike')
+{
+  loadnikePage()
+}
+else if(window.location.href==='http://localhost:5173/adidas')
+{
+  loadadidasPage()
+}
+else if(window.location.href==='http://localhost:5173/puma')
+{
+  loadpumaPage()
+}
+else if(window.location.href==='http://localhost:5173/asics')
+{
+  loadasicsPage()
+}
+else if(window.location.href==='http://localhost:5173/newbalance')
+{
+  loadnewbalancePage()
+}
+else if(window.location.href==='http://localhost:5173/converse')
+{
+  loadconversePage()
 }

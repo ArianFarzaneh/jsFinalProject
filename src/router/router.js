@@ -9,7 +9,13 @@
     "/":"/src/pages/welcomePage.html",
     404:"/src/pages/404.html",
     "/login": "/src/pages/login.html",
-    "/products":"/src/pages/products.html"
+    "/products":"/src/pages/products.html",
+    "/nike":"src/pages/brandsPage/nike.html",
+    "/adidas":"src/pages/brandsPage/adidas.html",
+    "/puma":"src/pages/brandsPage/puma.html",
+    "/asics":"src/pages/brandsPage/asics.html",
+    "/newbalance":"src/pages/brandsPage/newbalance.html",
+    "/converse":"src/pages/brandsPage/converse.html"
   };
   
   const handleLocation = async () => {
