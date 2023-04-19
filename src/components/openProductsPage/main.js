@@ -156,13 +156,25 @@ function addItemToCard(data,model,price,image,qnt,finalPrice)
         "model":model,
         "image":image,
         "price":price,
-        "totalprice":finalPrice,
-        "count":qnt
+        "totalprice":String(finalPrice),
+        "count":String(qnt)
       }
       data.cardItems.push(newCardItem)
       updateDatabaseCardItems(data)
 }
 async function updateDatabaseCardItems(data)
 {
-    console.log(data);
+    const user=localStorage.getItem('customerName')
+    try {
+        fetch(`http://localhost:3000/acounts/${user}`,{
+        method: 'PUT',
+        headers:{
+        'Content-Type':'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+    } catch (err) 
+    { 
+        console.log(`your error is: ${err}`);
+    }
 }

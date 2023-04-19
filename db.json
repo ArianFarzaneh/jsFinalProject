@@ -4,313 +4,553 @@
       "id": "adidasModel1",
       "model": "adidasModel1",
       "brand": "adidas",
-      "price":"200",
-      "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-      "sizes":["lg","xl","2xl"],
-      "images":"/src/assets/images/brands/adidas/adidas1.png"
-  },
-
-  {
-    "id": "adidasModel2",
-    "model": "adidasModel2",
-    "brand": "adidas",
-    "price":"300",
-    "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-    "sizes":["lg","xl","2xl"],
-    "images":"/src/assets/images/brands/adidas/adidas2.png"
-},
-
-{
-  "id": "adidasModel3",
-  "model": "adidasModel3",
-  "brand": "adidas",
-  "price":"400",
-  "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-  "sizes":["lg","xl","2xl"],
-  "images":"/src/assets/images/brands/adidas/adidas3.png"
-},
-
-{
-  "id": "adidasModel4",
-  "model": "adidasModel4",
-  "brand": "adidas",
-  "price":"500",
-  "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-  "sizes":["lg","xl","2xl"],
-  "images":"/src/assets/images/brands/adidas/adidas4.png"
-},
-
-{
-  "id": "adidasModel5",
-  "model": "adidasModel5",
-  "brand": "adidas",
-  "price":"320",
-  "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-  "sizes":["lg","xl","2xl"],
-  "images":"/src/assets/images/brands/adidas/adidas5.png"
-},
-
-{
-  "id": "nikeModel1",
-  "model": "nikeModel1",
-  "brand": "nike",
-  "price":"200",
-  "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-  "sizes":["lg","xl","2xl"],
-  "images":"/src/assets/images/brands/nike/nike1.png"
-},
-
-{
-"id": "nikeModel2",
-"model": "nikeModel2",
-"brand": "nike",
-"price":"300",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/nike/nike2.png"
-},
-
-{
-"id": "nikeModel3",
-"model": "nikeModel3",
-"brand": "nike",
-"price":"400",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/nike/nike3.png"
-},
-
-{
-"id": "nikeModel4",
-"model": "nikeModel4",
-"brand": "nike",
-"price":"500",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/nike/nike4.png"
-},
-
-{
-"id": "nikeModel5",
-"model": "nikeModel5",
-"brand": "nike",
-"price":"320",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/nike/nike5.png"
-},
-
-{
-  "id": "pumaModel1",
-  "model": "pumaModel1",
-  "brand": "puma",
-  "price":"200",
-  "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-  "sizes":["lg","xl","2xl"],
-  "images":"/src/assets/images/brands/puma/puma1.png"
-},
-
-{
-"id": "pumaModel2",
-"model": "pumaModel2",
-"brand": "puma",
-"price":"300",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/puma/puma2.png"
-},
-
-{
-"id": "pumaModel3",
-"model": "pumaModel3",
-"brand": "puma",
-"price":"400",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/puma/puma3.png"
-},
-
-{
-"id": "pumaModel4",
-"model": "pumaModel4",
-"brand": "puma",
-"price":"500",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/puma/puma4.png"
-},
-
-{
-  "id": "asicsModel1",
-  "model": "asicsModel1",
-  "brand": "asics",
-  "price":"200",
-  "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-  "sizes":["lg","xl","2xl"],
-  "images":"/src/assets/images/brands/asics/asics1.png"
-},
-
-{
-"id": "asicsModel2",
-"model": "asicsModel2",
-"brand": "asics",
-"price":"300",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/asics/asics2.png"
-},
-
-{
-"id": "asicsModel3",
-"model": "asicsModel3",
-"brand": "asics",
-"price":"400",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/asics/asics3.png"
-},
-
-{
-"id": "asicsModel4",
-"model": "asicsModel4",
-"brand": "asics",
-"price":"500",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/asics/asics4.png"
-},
-
-{
-"id": "asicsModel5",
-"model": "asicsModel5",
-"brand": "asics",
-"price":"320",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/asics/asics5.png"
-},
-
-{
-  "id": "newbalanceModel1",
-  "model": "newbalanceModel1",
-  "brand": "newbalance",
-  "price":"200",
-  "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-  "sizes":["lg","xl","2xl"],
-  "images":"/src/assets/images/brands/newbalance/newbalance1.png"
-},
-
-{
-"id": "newbalanceModel2",
-"model": "newbalanceModel2",
-"brand": "newbalance",
-"price":"300",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/newbalance/newbalance2.png"
-},
-
-{
-"id": "newbalanceModel3",
-"model": "newbalanceModel3",
-"brand": "newbalance",
-"price":"400",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/newbalance/newbalance3.png"
-},
-
-{
-"id": "newbalanceModel4",
-"model": "newbalanceModel4",
-"brand": "newbalance",
-"price":"500",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/newbalance/newbalance4.png"
-},
-
-{
-  "id": "converseModel1",
-  "model": "converseModel1",
-  "brand": "converse",
-  "price":"200",
-  "colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-  "sizes":["lg","xl","2xl"],
-  "images":"/src/assets/images/brands/converse/converse1.png"
-},
-
-{
-"id": "converseModel2",
-"model": "converseModel2",
-"brand": "converse",
-"price":"300",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/converse/converse2.png"
-},
-
-{
-"id": "converseModel3",
-"model": "converseModel3",
-"brand": "converse",
-"price":"400",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/converse/converse3.png"
-},
-
-{
-"id": "converseModel4",
-"model": "converseModel4",
-"brand": "converse",
-"price":"500",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/converse/converse4.png"
-},
-
-{
-"id": "converseModel5",
-"model": "converseModel5",
-"brand": "converse",
-"price":"320",
-"colors":["bg-red-400","bg-green-200","bg-blue-800","bg-purple-400","bg-orange-600"],
-"sizes":["lg","xl","2xl"],
-"images":"/src/assets/images/brands/converse/converse5.png"
-}
-
+      "price": "200",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/adidas/adidas1.png"
+    },
+    {
+      "id": "adidasModel2",
+      "model": "adidasModel2",
+      "brand": "adidas",
+      "price": "300",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/adidas/adidas2.png"
+    },
+    {
+      "id": "adidasModel3",
+      "model": "adidasModel3",
+      "brand": "adidas",
+      "price": "400",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/adidas/adidas3.png"
+    },
+    {
+      "id": "adidasModel4",
+      "model": "adidasModel4",
+      "brand": "adidas",
+      "price": "500",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/adidas/adidas4.png"
+    },
+    {
+      "id": "adidasModel5",
+      "model": "adidasModel5",
+      "brand": "adidas",
+      "price": "320",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/adidas/adidas5.png"
+    },
+    {
+      "id": "nikeModel1",
+      "model": "nikeModel1",
+      "brand": "nike",
+      "price": "200",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/nike/nike1.png"
+    },
+    {
+      "id": "nikeModel2",
+      "model": "nikeModel2",
+      "brand": "nike",
+      "price": "300",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/nike/nike2.png"
+    },
+    {
+      "id": "nikeModel3",
+      "model": "nikeModel3",
+      "brand": "nike",
+      "price": "400",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/nike/nike3.png"
+    },
+    {
+      "id": "nikeModel4",
+      "model": "nikeModel4",
+      "brand": "nike",
+      "price": "500",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/nike/nike4.png"
+    },
+    {
+      "id": "nikeModel5",
+      "model": "nikeModel5",
+      "brand": "nike",
+      "price": "320",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/nike/nike5.png"
+    },
+    {
+      "id": "pumaModel1",
+      "model": "pumaModel1",
+      "brand": "puma",
+      "price": "200",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/puma/puma1.png"
+    },
+    {
+      "id": "pumaModel2",
+      "model": "pumaModel2",
+      "brand": "puma",
+      "price": "300",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/puma/puma2.png"
+    },
+    {
+      "id": "pumaModel3",
+      "model": "pumaModel3",
+      "brand": "puma",
+      "price": "400",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/puma/puma3.png"
+    },
+    {
+      "id": "pumaModel4",
+      "model": "pumaModel4",
+      "brand": "puma",
+      "price": "500",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/puma/puma4.png"
+    },
+    {
+      "id": "asicsModel1",
+      "model": "asicsModel1",
+      "brand": "asics",
+      "price": "200",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/asics/asics1.png"
+    },
+    {
+      "id": "asicsModel2",
+      "model": "asicsModel2",
+      "brand": "asics",
+      "price": "300",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/asics/asics2.png"
+    },
+    {
+      "id": "asicsModel3",
+      "model": "asicsModel3",
+      "brand": "asics",
+      "price": "400",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/asics/asics3.png"
+    },
+    {
+      "id": "asicsModel4",
+      "model": "asicsModel4",
+      "brand": "asics",
+      "price": "500",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/asics/asics4.png"
+    },
+    {
+      "id": "asicsModel5",
+      "model": "asicsModel5",
+      "brand": "asics",
+      "price": "320",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/asics/asics5.png"
+    },
+    {
+      "id": "newbalanceModel1",
+      "model": "newbalanceModel1",
+      "brand": "newbalance",
+      "price": "200",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/newbalance/newbalance1.png"
+    },
+    {
+      "id": "newbalanceModel2",
+      "model": "newbalanceModel2",
+      "brand": "newbalance",
+      "price": "300",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/newbalance/newbalance2.png"
+    },
+    {
+      "id": "newbalanceModel3",
+      "model": "newbalanceModel3",
+      "brand": "newbalance",
+      "price": "400",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/newbalance/newbalance3.png"
+    },
+    {
+      "id": "newbalanceModel4",
+      "model": "newbalanceModel4",
+      "brand": "newbalance",
+      "price": "500",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/newbalance/newbalance4.png"
+    },
+    {
+      "id": "converseModel1",
+      "model": "converseModel1",
+      "brand": "converse",
+      "price": "200",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/converse/converse1.png"
+    },
+    {
+      "id": "converseModel2",
+      "model": "converseModel2",
+      "brand": "converse",
+      "price": "300",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/converse/converse2.png"
+    },
+    {
+      "id": "converseModel3",
+      "model": "converseModel3",
+      "brand": "converse",
+      "price": "400",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/converse/converse3.png"
+    },
+    {
+      "id": "converseModel4",
+      "model": "converseModel4",
+      "brand": "converse",
+      "price": "500",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/converse/converse4.png"
+    },
+    {
+      "id": "converseModel5",
+      "model": "converseModel5",
+      "brand": "converse",
+      "price": "320",
+      "colors": [
+        "bg-red-400",
+        "bg-green-200",
+        "bg-blue-800",
+        "bg-purple-400",
+        "bg-orange-600"
+      ],
+      "sizes": [
+        "lg",
+        "xl",
+        "2xl"
+      ],
+      "images": "/src/assets/images/brands/converse/converse5.png"
+    }
   ],
-
-  
   "acounts": [
-    { 
-      "id": "arian1@gmail.com", 
+    {
+      "id": "arian1@gmail.com",
       "password": "afn2681",
-      "name":"arian farzaneh1",
-      "cardItems":[
-        {
-          "model":"",
-          "image":"",
-          "price":"",
-          "totalprice":"",
-          "count":""
-        }
-      ]
-  },
-  
-  { 
-      "id": "arian2@gmail.com", 
+      "name": "arian farzaneh1",
+      "cardItems": []
+    },
+    {
+      "id": "arian2@gmail.com",
       "password": "afn2682",
-      "name":"arian farzaneh2"
-  },
-
-  { 
-      "id": "arian3@gmail.com", 
+      "name": "arian farzaneh2",
+      "cardItems": []
+    },
+    {
+      "id": "arian3@gmail.com",
       "password": "afn2683",
-      "name":"arian farzaneh3"
-  }
+      "name": "arian farzaneh3",
+      "cardItems": []
+    }
   ]
-
-  
 }
