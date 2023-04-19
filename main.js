@@ -4,6 +4,7 @@ import { renderProductsContainer , getAllProductsData ,brandsMenuContainer , ren
 import { loadnikePage , loadadidasPage , loadpumaPage , loadasicsPage , loadnewbalancePage , loadconversePage} from "./src/components/renderByBrandsRoute/main"
 import { openProductFunc } from "./src/components/openProductsPage/main"
 import { renderCardPage , goTOCheckoutPage , modalBtn , addOrderToDatabase } from "./src/components/cardPageHandle/main"
+import { renderOrdersFunc , activeOrdersBtn , completedOrdersBtn , activeOrdersContainer , complitedOrdersContainer } from "./src/components/orderPageHandle/main"
 
 
 if(window.location.href==="http://localhost:5173/")
@@ -96,6 +97,28 @@ modalBtn.addEventListener('click',()=>
 {
   addOrderToDatabase()
 })
+}
+else if(window.location.href==='http://localhost:5173/orders')
+{
+  renderOrdersFunc()
+  activeOrdersBtn.addEventListener('click',()=>
+  {
+    activeOrdersBtn.classList.add('border-black')
+    activeOrdersBtn.classList.add('border-b-4')
+    activeOrdersContainer.classList.remove('hidden')
+    completedOrdersBtn.classList.remove('border-black')
+    completedOrdersBtn.classList.remove('border-b-4')
+    complitedOrdersContainer.classList.add('hidden')
+  })
+  completedOrdersBtn.addEventListener('click',()=>
+  {
+    completedOrdersBtn.classList.add('border-black')
+    completedOrdersBtn.classList.add('border-b-4')
+    complitedOrdersContainer.classList.remove('hidden')
+    activeOrdersBtn.classList.remove('border-black')
+    activeOrdersBtn.classList.remove('border-b-4')
+    activeOrdersContainer.classList.add('hidden')
+  })
 }
 else if(window.location.href==='http://localhost:5173/nike')
 {

@@ -16,7 +16,8 @@
     "/puma":"src/pages/brandsPage/puma.html",
     "/asics":"src/pages/brandsPage/asics.html",
     "/newbalance":"src/pages/brandsPage/newbalance.html",
-    "/converse":"src/pages/brandsPage/converse.html"
+    "/converse":"src/pages/brandsPage/converse.html",
+    "/orders":"/src/pages/orders.html"
   };
   
   const handleLocation = async () => {

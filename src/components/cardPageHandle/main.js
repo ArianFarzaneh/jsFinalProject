@@ -118,8 +118,7 @@ async function removeCheckoutInUi(user,finalPrice)
         data.cardItems=[]
         const obj={
             "totalprice":finalPrice,
-            "orderStatus":'inProgress',
-            "id":""
+            "orderStatus":'inProgress'
         }
         data.orders.push(obj)
         removeCheckoutInDatabase(data,user,finalPrice);
@@ -144,16 +143,4 @@ async function removeCheckoutInDatabase(data,user,finalPrice)
     { 
         console.log(`your error is: ${err}`);
     }
-    // getOrderInfo(user,finalPrice)
 }
-
-// async function getOrderInfo(user,finalPrice)
-// {
-//     try {
-//         const response = await (await fetch(`http://localhost:3000/acounts/${user}`)).json()
-//         const data = await response;
-//     } catch (err) 
-//     { 
-//         console.log(`your error is: ${err}`);
-//     }
-// }

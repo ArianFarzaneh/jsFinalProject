@@ -539,7 +539,12 @@
       "password": "afn2681",
       "name": "arian farzaneh1",
       "cardItems": [],
-      "orders": []
+      "orders": [
+        {
+          "totalprice": 4100,
+          "orderStatus": "inProgress"
+        }
+      ]
     },
     {
       "id": "arian2@gmail.com",
@@ -552,37 +557,37 @@
       "id": "arian3@gmail.com",
       "password": "afn2683",
       "name": "arian farzaneh3",
-      "cardItems": [
+      "cardItems": [],
+      "orders": [
         {
-          "model": "adidasModel5",
-          "image": "/src/assets/images/brands/adidas/adidas5.png",
-          "price": "320",
-          "totalprice": "1600",
-          "count": "5"
+          "totalprice": "200",
+          "orderStatus": "inProgress"
         },
         {
-          "model": "nikeModel3",
-          "image": "/src/assets/images/brands/nike/nike3.png",
-          "price": "400",
-          "totalprice": "800",
-          "count": "2"
+          "totalprice": "300",
+          "orderStatus": "completed"
         },
         {
-          "model": "nikeModel4",
-          "image": "/src/assets/images/brands/nike/nike4.png",
-          "price": "500",
-          "totalprice": "3500",
-          "count": "7"
+          "totalprice": "400",
+          "orderStatus": "inProgress"
         },
         {
-          "model": "asicsModel5",
-          "image": "/src/assets/images/brands/asics/asics5.png",
-          "price": "320",
-          "totalprice": "1600",
-          "count": "5"
+          "totalprice": "500",
+          "orderStatus": "completed"
+        },
+        {
+          "totalprice": "600",
+          "orderStatus": "inProgress"
+        },
+        {
+          "totalprice": 7120,
+          "orderStatus": "inProgress"
+        },
+        {
+          "totalprice": 2300,
+          "orderStatus": "inProgress"
         }
-      ],
-      "orders": []
+      ]
     }
   ]
 }

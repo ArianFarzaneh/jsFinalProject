@@ -1,0 +1,69 @@
+<div id="orders-page" class="p-3 w-12/12 h-[200px]">
+
+    <div class="flex w-full mb-[3%] p-3">
+        <div class="bg-black w-[45px] h-[45px] p-3 rounded-full flex flex-col justify-center mr-[2%]"><img class="w-[100%] text-black" src="/src/assets/svg/Vector 1.svg" alt=""></div>
+        <div class="font-6xl w-[70%] flex flex-col justify-center font-bold text-2xl"><div>Orders</div></div>
+        <div class="flex flex-col justify-center"><ion-icon class="w-[25px] h-[25px]" name="search"></ion-icon></div>
+   </div>
+
+   <div class="flex w-full px-3  h-10">
+        <div id="active-orders-btn" class="w-[50%]  text-center font-bold text-xl border-black border-b-4">Active</div>
+        <div id="completed-orders-btn" class="w-[50%]  text-center font-bold text-xl">Complited</div>
+   </div>
+
+   <div id="active-orders-container" class="bg-[#f3f3f3] h-[400vh] p-3 ">
+        
+        <!-- <div class="active-order-card flex bg-white rounded-full p-3 w-full h-[50px] mt-2 mb-4">
+            <div class="text-left font-bold text-lg w-[90%]">order number 1</div>
+            <div class="text-right ">$500</div>
+        </div> -->
+
+   </div>
+
+
+
+   <div id="complited-orders-container" class=" bg-[#f3f3f3] h-[400vh] p-3 hidden">
+
+        <!-- <div class="active-order-card flex bg-white rounded-full p-3 w-full h-[50px] mt-2 mb-4">
+            <div class="text-left font-bold text-lg w-[90%]">order number 2</div>
+            <div class="text-right ">$500</div>
+        </div> -->
+
+   </div>
+
+
+</div>
+
+<div id="home-page-menu" class="mt-[100px] flex justify-around fixed w-full h-[14vh] bottom-0 bg-white pt-2">
+    <a href="/products" onclick="route()">
+        <div class="w-max text-center">
+            <div class="flex justify-center"><ion-icon class="w-7 h-7" name="home-outline"></ion-icon></div>
+            <div class="">Home</div>
+        </div>
+    </a>
+    <a href="/card" onclick="route()">
+        <div class="w-max text-center">
+            <div class="flex justify-center"><ion-icon class="w-7 h-7" name="bag-outline"></ion-icon></div>
+            <div class="">Cart</div>
+        </div>
+    </a>
+    <a href="/orders" onclick="route()">
+        <div class="w-max text-center">
+            <div class="flex justify-center"><ion-icon class="w-7 h-7" name="cart"></ion-icon></div>
+            <div class="">Orders</div>
+        </div>
+    </a>
+    <a href="" onclick="route()">
+        <div class="w-max text-center">
+            <div class="flex justify-center"><img class="w-7 h-7" src="/src/assets/images/menuIcons/walletOutline.png" alt=""></div>
+            <div class="">Wallet</div>
+        </div>
+    </a>
+    <a href="" onclick="route()">
+        <div class="w-max text-center">
+            <div class="flex justify-center"><img class="w-7 h-7" src="/src/assets/images/menuIcons/ProfileOutline.png" alt=""></div>
+            <div class="">Profile</div>
+        </div>
+    </a>
+
+</div>
