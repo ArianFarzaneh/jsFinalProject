@@ -10,6 +10,7 @@
     404:"/src/pages/404.html",
     "/login": "/src/pages/login.html",
     "/products":"/src/pages/products.html",
+    "/card":"/src/pages/card.html",
     "/nike":"src/pages/brandsPage/nike.html",
     "/adidas":"src/pages/brandsPage/adidas.html",
     "/puma":"src/pages/brandsPage/puma.html",

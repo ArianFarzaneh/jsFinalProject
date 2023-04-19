@@ -88,7 +88,7 @@ function renderProductPageFunction(target,data)
             <div class="bg-gray-200 rounded-full flex justify-evenly w-[30%]">
             <div class="text-3xl font-bold mr-[5%]"><button id="remove-product">-</button></div>
             <div class="text-2xl font-bold mr-[5%]" id="product-qnt">${quantityOfproduct}</div>
-            <div class="text-3xl font-bold"><button id="add-product"">+</button></div>
+            <div class="text-3xl font-bold"><button id="add-product">+</button></div>
             </div>
         </div>
 

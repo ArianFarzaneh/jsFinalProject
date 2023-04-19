@@ -550,7 +550,29 @@
       "id": "arian3@gmail.com",
       "password": "afn2683",
       "name": "arian farzaneh3",
-      "cardItems": []
+      "cardItems": [
+        {
+          "model": "adidasModel5",
+          "image": "/src/assets/images/brands/adidas/adidas5.png",
+          "price": "320",
+          "totalprice": "1600",
+          "count": "5"
+        },
+        {
+          "model": "nikeModel3",
+          "image": "/src/assets/images/brands/nike/nike3.png",
+          "price": "400",
+          "totalprice": "800",
+          "count": "2"
+        },
+        {
+          "model": "nikeModel4",
+          "image": "/src/assets/images/brands/nike/nike4.png",
+          "price": "500",
+          "totalprice": "3500",
+          "count": "7"
+        }
+      ]
     }
   ]
 }
