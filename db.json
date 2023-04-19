@@ -538,13 +538,15 @@
       "id": "arian1@gmail.com",
       "password": "afn2681",
       "name": "arian farzaneh1",
-      "cardItems": []
+      "cardItems": [],
+      "orders": []
     },
     {
       "id": "arian2@gmail.com",
       "password": "afn2682",
       "name": "arian farzaneh2",
-      "cardItems": []
+      "cardItems": [],
+      "orders": []
     },
     {
       "id": "arian3@gmail.com",
@@ -571,8 +573,16 @@
           "price": "500",
           "totalprice": "3500",
           "count": "7"
+        },
+        {
+          "model": "asicsModel5",
+          "image": "/src/assets/images/brands/asics/asics5.png",
+          "price": "320",
+          "totalprice": "1600",
+          "count": "5"
         }
-      ]
+      ],
+      "orders": []
     }
   ]
 }

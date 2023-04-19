@@ -3,7 +3,7 @@ import { eyeOpen , eyeClose , inputPass1 , inputPass2 , signInBtn , eyeOpenFunc 
 import { renderProductsContainer , getAllProductsData ,brandsMenuContainer , renderBrandInMainPage } from "./src/components/renderAllProducts/main"
 import { loadnikePage , loadadidasPage , loadpumaPage , loadasicsPage , loadnewbalancePage , loadconversePage} from "./src/components/renderByBrandsRoute/main"
 import { openProductFunc } from "./src/components/openProductsPage/main"
-import { renderCardPage } from "./src/components/cardPageHandle/main"
+import { renderCardPage , goTOCheckoutPage , modalBtn , addOrderToDatabase } from "./src/components/cardPageHandle/main"
 
 
 if(window.location.href==="http://localhost:5173/")
@@ -88,6 +88,14 @@ else if(window.location.href==='http://localhost:5173/products')
 else if(window.location.href==='http://localhost:5173/card')
 {
   renderCardPage()
+  document.getElementById('checkout-btn').addEventListener('click',()=>
+{
+    goTOCheckoutPage()
+})
+modalBtn.addEventListener('click',()=>
+{
+  addOrderToDatabase()
+})
 }
 else if(window.location.href==='http://localhost:5173/nike')
 {

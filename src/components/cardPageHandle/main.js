@@ -1,4 +1,8 @@
 const cartItemsContainer=document.getElementById('cart-items-container')
+const checkoutModal=document.getElementById('checkout-modal')
+const cardItemPage=document.getElementById('card-item-page')
+const checkoutDownSection = document.getElementById('checkout-down-section')
+export const modalBtn = document.getElementById('modal-btn')
 export function renderCardPage()
 {
     // cartItemsContainer.innerHTML=""
@@ -49,6 +53,7 @@ function renderItemsInCard(data)
             `
             cartItemsContainer.insertAdjacentHTML('beforeend',card)
         })
+        calculateFinalPRice()
         cartItemsContainer.addEventListener('click',(e)=>
         {
             let target=e.target
@@ -62,6 +67,7 @@ function renderItemsInCard(data)
             {
                 currentPrice.innerHTML=`$${Number(sumPrice)+unitPrice}`
                 countSection.innerHTML=String((Number(countSection.innerHTML))+1)
+                calculateFinalPRice()
             }
             else if(target.innerHTML==="-")
             {
@@ -69,7 +75,85 @@ function renderItemsInCard(data)
                 {
                     currentPrice.innerHTML=`$${Number(sumPrice)-unitPrice}`
                     countSection.innerHTML=String((Number(countSection.innerHTML))-1)
+                    calculateFinalPRice()
                 }
             }
         })
 }
+function calculateFinalPRice()
+{
+    let totalprice=0 ;
+    const cardExample=document.querySelectorAll('.card-example')
+    for ( let card of cardExample)
+    {
+        totalprice+=Number(card.children[1].children[2].children[0].innerHTML.split('$')[1])
+    }
+    document.getElementById("total-price-card-section").innerHTML=`$${totalprice}`
+
+}
+export function goTOCheckoutPage()
+{
+    
+    cardItemPage.classList.add('blur')
+    checkoutDownSection.classList.add('blur')
+    checkoutModal.classList.remove('hidden')
+}
+
+export function addOrderToDatabase()
+{
+    const finalPrice=Number(document.getElementById("total-price-card-section").innerHTML.split('$')[1])
+    cardItemPage.classList.remove('blur')
+    checkoutDownSection.classList.remove('blur')
+    checkoutModal.classList.add('hidden')
+    const user = localStorage.getItem('customerName')
+    console.log(user);
+    removeCheckoutInUi(user,finalPrice)
+}
+
+async function removeCheckoutInUi(user,finalPrice)
+{
+    try {
+        const response = await (await fetch(`http://localhost:3000/acounts/${user}`)).json()
+        const data = await response;
+        data.cardItems=[]
+        const obj={
+            "totalprice":finalPrice,
+            "orderStatus":'inProgress',
+            "id":""
+        }
+        data.orders.push(obj)
+        removeCheckoutInDatabase(data,user,finalPrice);
+    } catch (err) 
+    { 
+        console.log(`your error is: ${err}`);
+    }
+}
+
+async function removeCheckoutInDatabase(data,user,finalPrice)
+{
+    cartItemsContainer.innerHTML=""
+    try {
+        fetch(`http://localhost:3000/acounts/${user}`,{
+        method: 'PUT',
+        headers:{
+        'Content-Type':'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+    } catch (err) 
+    { 
+        console.log(`your error is: ${err}`);
+    }
+    // getOrderInfo(user,finalPrice)
+}
+
+// async function getOrderInfo(user,finalPrice)
+// {
+//     try {
+//         const response = await (await fetch(`http://localhost:3000/acounts/${user}`)).json()
+//         const data = await response;
+//     } catch (err) 
+//     { 
+//         console.log(`your error is: ${err}`);
+//     }
+// }

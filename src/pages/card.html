@@ -1,4 +1,4 @@
-<div id="card-item-page" class="w-full h-[5100px]">
+<div id="card-item-page" class="w-full h-[2000px]">
 
 
    <div class="card-page-title flex w-full mb-[3%] p-3">
@@ -7,7 +7,7 @@
         <div class="flex flex-col justify-center"><ion-icon class="w-[25px] h-[25px]" name="search"></ion-icon></div>
    </div>
 
-   <div id="cart-items-container" class="w-full bg-gray-100 h-[40vh] p-3">
+   <div id="cart-items-container" class="w-full bg-gray-100 p-3">
 
         <!-- <div class="card-example bg-white h-[150px] rounded-3xl p-3 flex mb-[3%]">
             <div class="w-[35%] bg-[#f3f3f3] flex flex-col justify-center"><img src="/src/assets/images/brands/fjfjftj.png" alt=""></div>
@@ -37,8 +37,20 @@
     
 </div>
 
-<div  class=" fixed w-full h-[25vh] bottom-0 bg-white pt-2">
-    <div class="h-[9vh] bg-red-300">dhdhrdrh</div>
+
+
+
+
+<div id="checkout-down-section" class=" fixed w-full h-[25vh] bottom-0 bg-white pt-2">
+
+    <div class="h-[9vh] flex w-full px-2">
+        <div class="w-[40%]">
+            <div class="">total Price</div>
+            <div id="total-price-card-section" class="text-2xl font-bold"></div>
+        </div>
+        <div class="w-[60%] flex flex-col justify-start"><button id="checkout-btn" class="w-full bg-black text-white p-4 rounded-full">Checkout</button></div>
+    </div>
+
     <div id="card-page-menu" class="flex justify-around h-[14vh]">
         <a href="/products" onclick="route()">
             <div class="w-max text-center">
@@ -74,6 +86,11 @@
 
 </div>
 
+  
+<div id="checkout-modal" class="fixed w-[300px] h-[200px] rounded-2xl bg-[#f3f3f3] top-64 left-10 p-5 hidden">
+    <div class="text-center font-bold text-4xl mb-8">Order succesful !</div>
+    <div class="w-full"><button id="modal-btn" class="w-full bg-black text-white rounded-full p-3">Ok!</button></div>
+</div>
 
 
 
@@ -82,42 +99,3 @@
 
 
 
-
-
-
-
-
-
-<!-- <div id="card-page-menu" class="mt-[100px] flex justify-around fixed w-full h-[14vh] bottom-0 bg-white pt-2">
-    <a href="/products" onclick="route()">
-        <div class="w-max text-center">
-            <div class="flex justify-center"><ion-icon class="w-7 h-7" name="home-outline"></ion-icon></div>
-            <div class="">Home</div>
-        </div>
-    </a>
-    <a href="" onclick="route()">
-        <div class="w-max text-center">
-            <div class="flex justify-center"><ion-icon class="w-7 h-7" name="bag"></ion-icon></div>
-            <div class="">Cart</div>
-        </div>
-    </a>
-    <a href="" onclick="route()">
-        <div class="w-max text-center">
-            <div class="flex justify-center"><img class="w-7 h-7" src="/src/assets/images/menuIcons/ordersOutline.png" alt=""></div>
-            <div class="">Orders</div>
-        </div>
-    </a>
-    <a href="" onclick="route()">
-        <div class="w-max text-center">
-            <div class="flex justify-center"><img class="w-7 h-7" src="/src/assets/images/menuIcons/walletOutline.png" alt=""></div>
-            <div class="">Wallet</div>
-        </div>
-    </a>
-    <a href="" onclick="route()">
-        <div class="w-max text-center">
-            <div class="flex justify-center"><img class="w-7 h-7" src="/src/assets/images/menuIcons/ProfileOutline.png" alt=""></div>
-            <div class="">Profile</div>
-        </div>
-    </a>
-
-</div> -->
