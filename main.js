@@ -1,11 +1,11 @@
 import { welcomePageContainer , welcomePage , poster , firstSlide , firstSlider , secondSlide , secondSlider , thirdSlide , thirdSlider , welcomePageDeleter , posterDeleter , firstSlideDeleter , secondSlideDeleter,thirdSlideDeleter} from "./src/components/hideWelcomePage/main"
 import { eyeOpen , eyeClose , inputPass1 , inputPass2 , signInBtn , eyeOpenFunc , eyeCloseFunc , checkLoginTruth, userInput} from "./src/components/loginHandle/main"
-import { renderProductsContainer , getAllProductsData ,brandsMenuContainer , renderBrandInMainPage } from "./src/components/renderAllProducts/main"
+import { renderProductsContainer , getAllProductsData ,brandsMenuContainer , renderBrandInMainPage , brandsInput , renderByInputSearch } from "./src/components/renderAllProducts/main"
 import { loadnikePage , loadadidasPage , loadpumaPage , loadasicsPage , loadnewbalancePage , loadconversePage} from "./src/components/renderByBrandsRoute/main"
 import { openProductFunc } from "./src/components/openProductsPage/main"
 import { renderCardPage , goTOCheckoutPage , modalBtn , addOrderToDatabase } from "./src/components/cardPageHandle/main"
 import { renderOrdersFunc , activeOrdersBtn , completedOrdersBtn , activeOrdersContainer , complitedOrdersContainer } from "./src/components/orderPageHandle/main"
-
+import { debounce } from "lodash"
 
 if(window.location.href==="http://localhost:5173/")
 {
@@ -85,6 +85,12 @@ else if(window.location.href==='http://localhost:5173/products')
       let target = e.target
       openProductFunc(target)
     })
+    brandsInput.addEventListener('input',
+    
+        debounce(()=>{
+          renderByInputSearch()   
+        },1000)
+    )
 }
 else if(window.location.href==='http://localhost:5173/card')
 {
