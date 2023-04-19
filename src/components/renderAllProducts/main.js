@@ -27,7 +27,7 @@ function renderAllProducts(data)
                     <div class="h-[70%] bg-[#f2f2f2] rounded-3xl flex flex-col justify-center">
                         <img class="w-52 h-52" src="${item.images}" alt="">
                     </div>
-                    <div class="h-[15%] font-bold text-xl">${item.model}</div>
+                    <div class="font-bold h-[15%] text-xl">${item.model}</div>
                     <div class="h-[15%]">$ ${item.price}</div>
             </div>
             `
@@ -57,7 +57,7 @@ function renderUniqeBrand(data)
                     <div class="h-[70%] bg-[#f2f2f2] rounded-3xl flex flex-col justify-center">
                         <img class="w-52 h-52" src="${item.images}" alt="">
                     </div>
-                    <div class="h-[15%] font-bold text-xl">${item.model}</div>
+                    <div class="font-bold h-[15%] text-xl">${item.model}</div>
                     <div class="h-[15%]">$ ${item.price}</div>
             </div>
             `

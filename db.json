@@ -287,7 +287,16 @@
     { 
       "id": "arian1@gmail.com", 
       "password": "afn2681",
-      "name":"arian farzaneh1"
+      "name":"arian farzaneh1",
+      "cardItems":[
+        {
+          "model":"",
+          "image":"",
+          "price":"",
+          "totalprice":"",
+          "count":""
+        }
+      ]
   },
   
   { 

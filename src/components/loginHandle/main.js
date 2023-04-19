@@ -32,7 +32,7 @@ export async function checkLoginTruth(url,userInput)
             {
                 console.log('you entered correct!');
                 const href=document.getElementById('login-router').setAttribute("href","/products")
-                localStorage.setItem("customerName", data.name);
+                localStorage.setItem("customerName", data.id);
             }
             else
             {

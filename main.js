@@ -2,8 +2,7 @@ import { welcomePageContainer , welcomePage , poster , firstSlide , firstSlider 
 import { eyeOpen , eyeClose , inputPass1 , inputPass2 , signInBtn , eyeOpenFunc , eyeCloseFunc , checkLoginTruth, userInput} from "./src/components/loginHandle/main"
 import { renderProductsContainer , getAllProductsData ,brandsMenuContainer , renderBrandInMainPage } from "./src/components/renderAllProducts/main"
 import { loadnikePage , loadadidasPage , loadpumaPage , loadasicsPage , loadnewbalancePage , loadconversePage} from "./src/components/renderByBrandsRoute/main"
-// import { homePageMenu } from "./src/components/showMainPage/main"
-
+import { openProductFunc } from "./src/components/openProductsPage/main"
 
 
 if(window.location.href==="http://localhost:5173/")
@@ -79,6 +78,15 @@ else if(window.location.href==='http://localhost:5173/products')
         renderBrandInMainPage(`http://localhost:3000/products?brand=${target.innerHTML}`,target)
       }
     })
+    renderProductsContainer.addEventListener('click',(e)=>
+    {
+      let target = e.target
+      openProductFunc(target)
+    })
+    // addProduct.addEventListener('click',()=>
+    // {
+    //   addquantityOfproduct()
+    // })
 }
 else if(window.location.href==='http://localhost:5173/nike')
 {
